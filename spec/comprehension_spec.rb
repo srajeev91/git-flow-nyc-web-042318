@@ -174,14 +174,14 @@ describe "GIT" do
 # describe "MERGING:" do
   it '23. To merge a feature branch into master, you must first be on master' do
     # "true" or "false", in a string
-    answer = "?"
+    answer = "true"
     encoded_answer = "5ffe533b830f08a0326348a9160afafc8ada44db"
     expect(encode(answer)).to eq(encoded_answer)
   end
 
   it "24. What is the syntax for merging the local feature branch called 
       'update-color-scheme' into master, assuming you're already on master" do
-    answer = "?"
+    answer = "it merge update-color-scheme"
     encoded_answer = "38db6e269e805c09ea6c4bc4eb1bb83829e7504c"
     expect(encode(answer)).to eq(encoded_answer)
   end
